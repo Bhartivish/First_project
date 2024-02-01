@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #E8D8C4;
+    font-family: dragon hunter;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.screen h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+#start-btn {
+    font-size: 27px;
+    padding: 15px 30px;
+    background: transparent;
+    border: none;
+    border: 2px solid;
+    transition: all ease 0.5s;
+}
+
+#start-btn:hover {
+    background-color: #E8D8C4;
+    color:  #561C24;
+    cursor: progress;
+    /* scale: 0.9; */
+
+}
+
+#page2 h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+
+}
+
+.elem-contsiner {
+    display: flex;
+    /* align-items: center; */
+    gap: 30px;
+}
+.elem {
+    border: 2px solid;
+    text-align: center;
+}
+.elem img {
+    width: 140px;
+}
+.elem h3 {
+    font-size: 20px;
+    margin-top: 9px;
+}
+.elem:hover {
+    background-color: #E8D8C4;
+    /* color: #561C24; */
+    cursor: progress;
+    /* scale: 0.9; */
+    transition: all ease 0.3s;
+}
+/* alag se karna pada */
+.elem:hover h3 {
+    color: #561C24;
+}
+.time-score {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.time-score h4 {
+    font-size: 25px;
+}
+
+.time-score h5 {
+    font-size: 21px;
+}
+
+#page3 h2 {
+    font-size: 40px;
+}
+
+.playground {
+    width: 100%;
+    height: 90%;
+}
